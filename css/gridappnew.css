@@ -1,0 +1,218 @@
+
+*{
+        margin: 0px; 
+        padding: 0px;  
+}
+html,body { 
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        height: 100%;
+        color: rgb(0, 0, 0);
+        position: relative;               
+}
+#contenedor1{
+        position: absolute;
+        width: 35%;
+        height: 70%;
+        top: 14%;
+        left: 14%;
+        z-index: 5;
+        border-radius:80px;
+        border: #000000 3px solid;
+     
+         /*background: linear-gradient(white,white,white, rgba(233, 233, 233, 0.7));*/
+}
+#enunciado{
+        position: absolute;
+        top: 0.1%;
+        width:69.9%;
+        height:45%;
+        border-radius:77px 77px 0px 0px;
+        border-bottom: #000000 3px solid;
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        line-height: 130%;
+        padding:15%;
+        padding-top: 13%;
+        z-index: 0;
+
+}
+#btnRespuesta{
+        position:absolute;
+        width: 20%;
+        height: 53%;
+        left:-90%;
+        top: 52%;
+        border: 0px;
+        color: white;
+        cursor:pointer;
+        font-size: 1em;
+        border-radius:7px;
+        background-color: #000000;
+        text-align: center;
+        -webkit-transition:  background-color 0.5s;
+        -moz-transition:  background-color 0.5s;
+        -o-transition:  background-color 0.5s;
+        
+}
+#btnLimpiar{
+        border: 0px;
+        color: white;
+        cursor:pointer;
+        position:absolute;
+        width: 20%;
+        height: 53%;
+        left:-40%;
+        top: 52%;
+        font-size: 1em;
+        border-radius:7px;
+        background-color: #000000;
+        text-align: center;
+        -webkit-transition:  background-color 0.5s;
+        -moz-transition:  background-color 0.5s;
+        -o-transition:  background-color 0.5s;
+        
+}
+#btnLimpiar:hover, #btnRespuesta:hover{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+         border: #000000 3px solid;
+}
+
+#contenedor2{
+        position: absolute;
+        width: 35%;
+        height: 70%;
+        top: 14%;
+        right: 14%;
+        z-index: 5;
+        border-radius:80px;
+        border: #000000 3px solid;
+
+         /*background: linear-gradient(white,white,white, rgba(233, 233, 233, 0.7));*/
+}
+header h1{
+        position: absolute;
+        width: 35%;
+        height: 17.3%;
+        top: 14.5%;
+        right: 14.2%;
+        color:#000000;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 7em;
+        
+       
+        z-index: 10;
+       
+}   
+img{ 
+        position: absolute;
+        width: 40%;
+        height: auto;
+        left: 3%;
+        top:  5%;
+        border-radius:7px;
+}
+      
+main {
+        position: absolute;
+        bottom: -0.1%;
+        left: 0%;
+        width: 100%;
+        height:74.5%;
+        border-top: #000000 3px solid;
+        border-radius:0px 0px 77px 77px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        
+       
+        
+}
+canvas{
+        width: 98%;
+        height: 98%;
+        
+}
+
+
+#introduzca{
+
+        position:absolute;
+        width: 100%;
+        height: 10%;
+        top:70%;
+        right: 0%;
+        text-align: center;
+        font-size: 1em;
+        color: white;
+}
+#respuesta{
+        position:absolute;
+        width: 40%;
+        height: 50%;
+        right:3%;
+        top:5%;
+        border-radius:7px;
+        background-color: #ffffff;
+        text-align: center;
+        font-size: 1em;
+        border: #000000 thin solid;
+}
+#str{
+        position:absolute;
+        width: 80%;
+        height: 8%;
+        top:83%;
+        right: 9.5%;
+        background-color: #000000;
+        border-radius:7px;
+        border-top: #ffffff 3px solid;
+        text-align: center;
+        font-size: 1.3em;
+        color:#ffffff;
+}
+#btnLimpiar{
+        border: 0px;
+        color: white;
+        cursor:pointer;
+        position:absolute;
+        width: 20%;
+        height: 25%;
+        left:-40%;
+        top: 70%;
+        border-radius:7px;
+        background-color: #000000;
+        text-align: center;
+        -webkit-transition:  background-color 0.5s;
+        -moz-transition:  background-color 0.5s;
+        -o-transition:  background-color 0.5s;
+        
+}
+
+#btnRespuesta{
+        border: 0px;
+        color: white;
+        cursor:pointer;
+        position:absolute;
+        width: 20%;
+        height: 25%;
+        left:-90%;
+        top: 70%;
+        border-radius:7px;
+        background-color: #000000;
+        text-align: center;
+        -webkit-transition:  background-color 0.5s;
+        -moz-transition:  background-color 0.5s;
+        -o-transition:  background-color 0.5s;
+        
+}
+
+#btnLimpiar:hover, #btnRespuesta:hover{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+         border: #000000 3px solid;
+}
+
+
+

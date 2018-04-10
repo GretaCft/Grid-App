@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <title>Grid</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <link href="css/gridappnew.css" rel="stylesheet">
+    </head>
+
+<script src="js/gridapp.js"></script>
+
+<script type="text/javascript">
+</script>
+
+<body>
+        <canvas></canvas>
+        
+         <script type="text/javascript" src="js/canvasgrid.js"></script>
+
+<header>
+        <h1>GRID</h1>            
+</header>
+
+<div id="contenedor1">
+    <section>
+        <p id="enunciado">       
+                Tenemos una cuadrícula de 10 x 10 celdas blancas, 
+                con columnas indexadas desde 0 a 9 y filas también indexadas desde 0 a 9.
+                Puede introducir la cantidad de números que desee, separados por coma, 
+                estas serán las coordenadas de las celdas negras. Cada número corresponderá al patrón "columna fila".
+                La respuesta será el número máximo de celdas negras que comparten bordes.</br></br>
+                La imagen de la derecha es la representación gráfica del conjunto de números siguientes:</br> 
+                18, 00, 95, 40, 36, 26, 57, 48, 54, 65, 76, 87, 97, 47, 00.</br>
+                Para ellos la respuesta sería 3.
+        </p>
+    </section>
+    <div id="zonabotones"></div>
+</div>
+
+
+    <div id="contenedor2">
+        <div id="zonatitulo"></div>
+            
+        <main>
+            
+            <img src="img/grid.jpg" alt="grid">
+            <form>
+                <p id="introduzca">Introduzca las coordenadas de las celdas negras.</p>
+                <br/>
+                <input type="text" id="str" class="form-control" />
+                <br/>
+                <input type="button" id="btnRespuesta"  class="btn btn-primary" value="Respuesta"/>
+                <br/>
+                <input type="button" id="btnLimpiar"  class="btn btn-primary" value="Vaciar"/>
+            </form>
+
+            <p id="respuesta"></p>
+
+         </main>
+
+    </div>
+
+</body>
+
+</html>
+
+
